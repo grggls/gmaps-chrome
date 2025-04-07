@@ -5,7 +5,8 @@ function isLocationQuery(query) {
         'place', 'square', 'park', 'plaza', 'court', 'circle',
         'building', 'house', 'apartment', 'flat', 'floor',
         'postal', 'zip', 'postcode', 'coordinates', 'gps',
-        'latitude', 'longitude', 'address', 'location'
+        'latitude', 'longitude', 'address', 'location',
+        'beach', 'forest', 'mountain', 'lake', 'river', 'stream', 'sea'
     ];
     
     const queryLower = query.toLowerCase();
@@ -35,7 +36,7 @@ function injectMapsLink(searchQuery) {
     mapsLink.className = 'gmaps-restorer-link';
     mapsLink.innerHTML = `
         <div class="gmaps-restorer-container">
-            <img src="https://www.google.com/maps/favicon.ico" alt="Maps" class="gmaps-restorer-icon">
+            <img src="https://maps.gstatic.com/favicon.ico" alt="Maps" class="gmaps-restorer-icon">
             <span>Open in Google Maps</span>
         </div>
     `;
