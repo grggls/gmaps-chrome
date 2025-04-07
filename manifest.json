@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "GMaps Link Restorer",
+  "version": "1.0",
+  "description": "Restores Google Maps links in search results for EU users",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "*://*.google.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*.google.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+} 

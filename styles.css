@@ -1,0 +1,33 @@
+.gmaps-restorer-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    margin: 16px 0;
+    padding: 12px 16px;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    transition: background-color 0.2s ease;
+}
+
+.gmaps-restorer-link:hover {
+    background-color: #f1f3f4;
+    text-decoration: none;
+}
+
+.gmaps-restorer-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.gmaps-restorer-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.gmaps-restorer-container span {
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    color: #1a73e8;
+} 
